@@ -1,6 +1,2 @@
 #!/usr/bin/python3
-for i in range(0, 100):
-    if i < 99:
-        print(f"{i:02d}", end=", ")
-    else:
-        print(f"{i:02d}")
+print(', '.join(['{:02d}'.format(n)for n in range(99)]))
