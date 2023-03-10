@@ -14,7 +14,7 @@ idx = 6
 print("Element at index {:d} is {}".format(idx, element_at(my_list, idx))) """
 
 # 2-main
-replace_in_list = __import__('2-replace_in_list').replace_in_list
+""" replace_in_list = __import__('2-replace_in_list').replace_in_list
 
 my_list = [1, 2, 3, 4, 5]
 idx = 3
@@ -22,4 +22,10 @@ new_element = 9
 new_list = replace_in_list(my_list, idx, new_element)
 
 print(new_list)
-print(my_list)
+print(my_list) """
+
+# 3-main
+print_reversed_list_integer = __import__('3-print_reversed_list_integer').print_reversed_list_integer
+
+my_list = [1, 2, 3, 4, 5]
+print_reversed_list_integer(my_list)
