@@ -49,7 +49,7 @@ print(no_c("Chicago"))
 print(no_c("C is fun!")) """
 
 # 6-main
-print_matrix_integer = __import__('6-print_matrix_integer').print_matrix_integer
+""" print_matrix_integer = __import__('6-print_matrix_integer').print_matrix_integer
 
 matrix = [
     [1, 2, 3],
@@ -59,7 +59,7 @@ matrix = [
 
 print_matrix_integer(matrix)
 print("--")
-print_matrix_integer()
+print_matrix_integer() """
 
 # 7-main
 """ add_tuple = __import__('7-add_tuple').add_tuple
