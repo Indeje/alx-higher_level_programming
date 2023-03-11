@@ -80,8 +80,19 @@ length, first = multiple_returns(sentence)
 print("Length: {:d} - First character: {}".format(length, first)) """
 
 # 9-main
-max_integer = __import__('9-max_integer').max_integer
+""" max_integer = __import__('9-max_integer').max_integer
 
 my_list = [-1, -90, -2, -13, -34, -5, -13, -3]
 max_value = max_integer(my_list)
-print("Max: {}".format(max_value))
+print("Max: {}".format(max_value)) """
+
+# 10-main
+divisible_by_2 = __import__('10-divisible_by_2').divisible_by_2
+
+my_list = [0, 1, 2, 3, 4, 5, 6]
+list_result = divisible_by_2(my_list)
+
+i = 0
+while i < len(list_result):
+    print("{:d} {:s} divisible by 2".format(my_list[i], "is" if list_result[i] else "is not"))
+    i += 1
