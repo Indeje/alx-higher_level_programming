@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
 # 0-main
-""" print_list_integer = __import__('0-print_list_integer').print_list_integer
+print_list_integer = __import__('0-print_list_integer').print_list_integer
 
 my_list = [1, 2, 3, 4, 5]
-print_list_integer(my_list) """
+print_list_integer(my_list)
 
 # 1-main
 """ element_at = __import__('1-element_at').element_at
@@ -105,4 +105,3 @@ idx = 3
 new_list = delete_at(my_list, idx)
 print(new_list)
 print(my_list) """
-
