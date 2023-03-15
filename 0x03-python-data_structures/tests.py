@@ -17,9 +17,9 @@
 # print([(x, y, z) for x in range(4) for y in range(4) for z in range(4)
 #        if x != y and y != z and x != z])
 
-vec = [[1,2,3], [4,5,6], [7,8,9]]
-print([num for elem in vec for num in elem])
-vec = list(zip(vec[0], vec[1], vec[2], strict=True))
-print(vec)
-vec = list(zip(vec[0], vec[1], vec[2], strict=True))
-print(vec)
+# vec = [[1,2,3], [4,5,6], [7,8,9]]
+# print([num for elem in vec for num in elem])
+# vec = list(zip(vec[0], vec[1], vec[2], strict=True))
+# print(vec)
+# vec = list(zip(vec[0], vec[1], vec[2], strict=True))
+# print(vec)
