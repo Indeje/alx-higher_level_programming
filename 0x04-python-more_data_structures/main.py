@@ -30,9 +30,17 @@ result = uniq_add(my_list)
 print("Result: {:d}".format(result)) """
 
 # 3-main
-common_elements = __import__('3-common_elements').common_elements
+""" common_elements = __import__('3-common_elements').common_elements
 
 set_1 = { "Python", "C", "Javascript" }
 set_2 = { "Bash", "C", "Ruby", "Perl" }
 c_set = common_elements(set_1, set_2)
-print(sorted(list(c_set)))
+print(sorted(list(c_set))) """
+
+# 4-main
+only_diff_elements = __import__('4-only_diff_elements').only_diff_elements
+
+set_1 = { "Python", "C", "Javascript" }
+set_2 = { "Bash", "C", "Ruby", "Perl" }
+od_set = only_diff_elements(set_1, set_2)
+print(sorted(list(od_set)))
