@@ -46,8 +46,14 @@ od_set = only_diff_elements(set_1, set_2)
 print(sorted(list(od_set))) """
 
 # 5-main
-number_keys = __import__('5-number_keys').number_keys
+""" number_keys = __import__('5-number_keys').number_keys
 
 a_dictionary = { 'language': "C", 'number': 13, 'track': "Low level" }
 nb_keys = number_keys(a_dictionary)
-print("Number of keys: {:d}".format(nb_keys))
+print("Number of keys: {:d}".format(nb_keys)) """
+
+# 6-main
+print_sorted_dictionary = __import__('6-print_sorted_dictionary').print_sorted_dictionary
+
+a_dictionary = { 'language': "C", 'Number': 89, 'track': "Low level", 'ids': [1, 2, 3] }
+print_sorted_dictionary(a_dictionary)
