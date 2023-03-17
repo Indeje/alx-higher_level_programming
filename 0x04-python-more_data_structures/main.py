@@ -106,11 +106,19 @@ print("--")
 print_sorted_dictionary(new_dict) """
 
 # 10-main
-best_score = __import__('10-best_score').best_score
+""" best_score = __import__('10-best_score').best_score
 
 a_dictionary = {'John': 62, 'Bob': 14, 'Mike': 14, 'Molly': 16, 'Adam': 30}
 best_key = best_score(a_dictionary)
 print("Best score: {}".format(best_key))
 
 best_key = best_score(None)
-print("Best score: {}".format(best_key))
+print("Best score: {}".format(best_key)) """
+
+# 11-main
+multiply_list_map = __import__('11-multiply_list_map').multiply_list_map
+
+my_list = [1, 2, 3, 4, 6]
+new_list = multiply_list_map(my_list, 4)
+print(new_list)
+print(my_list)
