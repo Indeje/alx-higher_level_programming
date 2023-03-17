@@ -95,7 +95,7 @@ print("--")
 print_sorted_dictionary(new_dict) """
 
 # 9-main
-multiply_by_2 = __import__('9-multiply_by_2').multiply_by_2
+""" multiply_by_2 = __import__('9-multiply_by_2').multiply_by_2
 print_sorted_dictionary = \
     __import__('6-print_sorted_dictionary').print_sorted_dictionary
 
@@ -103,4 +103,14 @@ a_dictionary = {'John': 12, 'Alex': 8, 'Bob': 14, 'Mike': 14, 'Molly': 16}
 new_dict = multiply_by_2(a_dictionary)
 print_sorted_dictionary(a_dictionary)
 print("--")
-print_sorted_dictionary(new_dict)
+print_sorted_dictionary(new_dict) """
+
+# 10-main
+best_score = __import__('10-best_score').best_score
+
+a_dictionary = {'John': 62, 'Bob': 14, 'Mike': 14, 'Molly': 16, 'Adam': 30}
+best_key = best_score(a_dictionary)
+print("Best score: {}".format(best_key))
+
+best_key = best_score(None)
+print("Best score: {}".format(best_key))
