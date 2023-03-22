@@ -39,6 +39,4 @@ def roman_to_int(roman_string):
                 decimal += 1
 
         index += 1
-
-
     return decimal
