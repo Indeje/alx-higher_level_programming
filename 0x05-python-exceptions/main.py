@@ -75,9 +75,28 @@ result = list_division(my_l_1, my_l_2, max(len(my_l_1), len(my_l_2)))
 print(result) """
 
 # 5-main
-raise_exception = __import__('5-raise_exception').raise_exception
+""" raise_exception = __import__('5-raise_exception').raise_exception
 
 try:
     raise_exception()
 except TypeError as te:
-    print("Exception raised")
+    print("Exception raised") """
+
+# 100-main
+safe_print_integer_err = \
+    __import__('100-safe_print_integer_err').safe_print_integer_err
+
+value = 89
+has_been_print = safe_print_integer_err(value)
+if not has_been_print:
+    print("{} is not an integer".format(value))
+
+value = -89
+has_been_print = safe_print_integer_err(value)
+if not has_been_print:
+    print("{} is not an integer".format(value))
+
+value = "School"
+has_been_print = safe_print_integer_err(value)
+if not has_been_print:
+    print("{} is not an integer".format(value))
