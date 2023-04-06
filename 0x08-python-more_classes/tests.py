@@ -82,18 +82,11 @@ class Rectangle:
             raise ValueError('height must be >= 0')
         return True
 
-    def area(self):
-        """
-            Returns rectangle area
-        """
 
-        return (self.height * self.width)
-    
-    def perimeter(self):
-        """
-            Returns rectangle perimeter
-        """
+if __name__ == '__main__':
+    my_rectangle = Rectangle(2, 4)
+    print(my_rectangle.__dict__)
 
-        if self.width == 0 or self.height == 0:
-            return 0
-        return ((self.height + self.width) * 2)
+    my_rectangle.width = 10
+    my_rectangle.height = 3
+    print(my_rectangle.__dict__)
