@@ -88,7 +88,7 @@ class Rectangle:
         """
 
         return (self.height * self.width)
-    
+
     def perimeter(self):
         """
             Returns rectangle perimeter
