@@ -42,7 +42,7 @@ print(repr(my_rectangle)) """
 
 
 # 4-main
-Rectangle = __import__('4-rectangle').Rectangle
+""" Rectangle = __import__('4-rectangle').Rectangle
 
 my_rectangle = Rectangle(2, 4)
 print(str(my_rectangle))
@@ -66,4 +66,18 @@ print(hex(id(new_rectangle)))
 print("--")
 
 print(new_rectangle is my_rectangle)
-print(type(new_rectangle) is type(my_rectangle))
+print(type(new_rectangle) is type(my_rectangle)) """
+
+
+# 5-main
+Rectangle = __import__('5-rectangle').Rectangle
+
+my_rectangle = Rectangle(2, 4)
+print("Area: {} - Perimeter: {}".format(my_rectangle.area(), my_rectangle.perimeter()))
+
+del my_rectangle
+
+try:
+    print(my_rectangle)
+except Exception as e:
+    print("[{}] {}".format(e.__class__.__name__, e))
