@@ -50,7 +50,7 @@ class Rectangle:
 
     def __del__(self):
         """
-            Destructor method 
+            Destructor method
         """
 
         print('Bye rectangle...')
