@@ -7,8 +7,14 @@ read_file("my_file_0.txt") """
 
 
 # 1-main
-write_file = __import__('1-write_file').write_file
+""" write_file = __import__('1-write_file').write_file
 
 nb_characters = write_file("my_first_file.txt", "This School is so cool!\n")
-print(nb_characters)
+print(nb_characters) """
 
+
+# 2-main
+append_write = __import__('2-append_write').append_write
+
+nb_characters_added = append_write("file_append.txt", "This School is so cool!\n")
+print(nb_characters_added)
